@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate, Link } from 'react-router-dom';
 
-const API = 'http://localhost:5001/api';
+const API = 'https://lost-found-backend-rbsl.onrender.com/api';
 
 function Register() {
   const navigate = useNavigate();
